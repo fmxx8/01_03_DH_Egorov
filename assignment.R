@@ -10,6 +10,8 @@ meta <- oldFrenchMeta
 ggplot(aes(Topic, fill = Genre)) +
   geom_bar()
 
+meta
+
 meta +
   labs(
     title = "Old French Data",
